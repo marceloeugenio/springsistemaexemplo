@@ -14,4 +14,8 @@ public class ClientesController {
 		return "cliente/CadastroCliente";
 	}
 
+	@RequestMapping("/clientes/cadastro")
+	public String cadastro() {
+		return "cliente/cadastro-cliente";
+	}
 }
